@@ -9,11 +9,6 @@ size = width, height = 500, 500
 
 screen = pygame.display.set_mode(size)
 
-class Ball():
-    pos = []
-    vel = [0, 0]
-
-
 c = [[[100, 100, 100] for i in range(11)] for j in range(11)]
 
 rate_of_change = 7
